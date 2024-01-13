@@ -4,7 +4,7 @@ import NextAuth from "next-auth"
 // import Atlassian from "next-auth/providers/atlassian"
 // import Auth0 from "next-auth/providers/auth0"
 // import Authentik from "next-auth/providers/authentik"
-// import AzureAD from "next-auth/providers/azure-ad"
+import AzureAD from "next-auth/providers/azure-ad"
 // import AzureB2C from "next-auth/providers/azure-ad-b2c"
 // import Battlenet from "next-auth/providers/battlenet"
 // import Box from "next-auth/providers/box"
@@ -22,7 +22,7 @@ import NextAuth from "next-auth"
 // import Foursquare from "next-auth/providers/foursquare"
 // import Freshbooks from "next-auth/providers/freshbooks"
 // import Fusionauth from "next-auth/providers/fusionauth"
-import GitHub from "next-auth/providers/github"
+//import GitHub from "next-auth/providers/github"
 // import Gitlab from "next-auth/providers/gitlab"
 // import Google from "next-auth/providers/google"
 // import Hubspot from "next-auth/providers/hubspot"
@@ -74,7 +74,7 @@ export const config = {
     // Atlassian,
     // Auth0,
     // Authentik,
-    // AzureAD,
+    AzureAD,
     // AzureB2C,
     // Battlenet,
     // Box,
@@ -92,7 +92,7 @@ export const config = {
     // Foursquare,
     // Freshbooks,
     // Fusionauth,
-    GitHub,
+    //GitHub,
     // Gitlab,
     // Google,
     // Hubspot,
